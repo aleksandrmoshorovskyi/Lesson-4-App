@@ -28,11 +28,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Tap me!"/>
+                                <connections>
+                                    <action selector="touchMyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="svn-rr-mau"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="myBurron" destination="B1K-sw-5VV" id="YPf-3d-ihr"/>
+                        <outlet property="myLabel" destination="oGJ-m7-gyL" id="fJ4-RS-oFS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
